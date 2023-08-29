@@ -138,8 +138,10 @@ body{
 }
 
 @media(max-width:768px){
+    
     .calculator-container{
-        width: 400px;
+        width: 100%;
+        margin: 20px;
     }
 
     .calculator-container > div{
@@ -147,7 +149,7 @@ body{
     }
 
     .display{
-        height: 200px;
+        height: 250px;
     }
 
     .display .display__output{
@@ -165,5 +167,6 @@ body{
 
     .keys .key{
         font-size: 1.5rem;
+        padding: 2rem;
     }
 }
